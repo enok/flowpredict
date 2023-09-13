@@ -1,0 +1,383 @@
+-----------------------
+Campo: AUDITOR
+-----------------------
+   Descrição : Nome do Auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: BAIRRO
+-----------------------
+   Descrição : Bairro
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: BAIRRO_RESP
+-----------------------
+   Descrição : Bairro do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CATEG_REG
+-----------------------
+   Descrição : Categoria do registro
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CD_CVM
+-----------------------
+   Descrição : Código CVM
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 7
+   Scale     : 0
+
+-----------------------
+Campo: CEP
+-----------------------
+   Descrição : CEP
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 8
+   Scale     : 0
+
+-----------------------
+Campo: CEP_RESP
+-----------------------
+   Descrição : CEP do responsável
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 8
+   Scale     : 0
+
+-----------------------
+Campo: CNPJ_AUDITOR
+-----------------------
+   Descrição : CNPJ do Auditor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CNPJ_CIA
+-----------------------
+   Descrição : CNPJ da companhia
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: COMPL
+-----------------------
+   Descrição : Complemento de endereço
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: COMPL_RESP
+-----------------------
+   Descrição : Complemento de endereço do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CONTROLE_ACIONARIO
+-----------------------
+   Descrição : Controle Acionário
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 30
+
+-----------------------
+Campo: DDD_FAX
+-----------------------
+   Descrição : Código de DDD (FAX)
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : 4
+
+-----------------------
+Campo: DDD_FAX_RESP
+-----------------------
+   Descrição : Código de DDD (FAX) do responsável
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : 4
+
+-----------------------
+Campo: DDD_TEL
+-----------------------
+   Descrição : Código de DDD (Telefone)
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : 4
+
+-----------------------
+Campo: DDD_TEL_RESP
+-----------------------
+   Descrição : Código de DDD (Telefone) do responsável
+   Domínio   : Numérico
+   Tipo Dados: varchar
+   Tamanho   : 4
+
+-----------------------
+Campo: DENOM_COMERC
+-----------------------
+   Descrição : Denominação Comercial
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_CANCEL
+-----------------------
+   Descrição : Data de cancelamento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONST
+-----------------------
+   Descrição : Data de constituição
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_CATEG
+-----------------------
+   Descrição : Data início da categoria do registro
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_RESP
+-----------------------
+   Descrição : Data início de atuação do responsável
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_SIT
+-----------------------
+   Descrição : Data início da situação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_SIT_EMISSOR
+-----------------------
+   Descrição : Data início da situação do emissor
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_REG
+-----------------------
+   Descrição : Data de registro
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMAIL
+-----------------------
+   Descrição : Endereço de e-mail
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: EMAIL_RESP
+-----------------------
+   Descrição : Endereço de e-mail do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: FAX
+-----------------------
+   Descrição : FAX
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 15
+   Scale     : 0
+
+-----------------------
+Campo: FAX_RESP
+-----------------------
+   Descrição : FAX do responsável
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 15
+   Scale     : 0
+
+-----------------------
+Campo: LOGRADOURO
+-----------------------
+   Descrição : Logradouro
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: LOGRADOURO_RESP
+-----------------------
+   Descrição : Logradouro do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: MOTIVO_CANCEL
+-----------------------
+   Descrição : Motivo de cancelamento
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 80
+
+-----------------------
+Campo: MUN
+-----------------------
+   Descrição : Nome do município
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: MUN_RESP
+-----------------------
+   Descrição : Nome do município do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: PAIS
+-----------------------
+   Descrição : País
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: PAIS_RESP
+-----------------------
+   Descrição : País do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: RESP
+-----------------------
+   Descrição : Nome do Responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: SETOR_ATIV
+-----------------------
+   Descrição : Setor de atividade
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: SIT
+-----------------------
+   Descrição : Situação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 40
+
+-----------------------
+Campo: SIT_EMISSOR
+-----------------------
+   Descrição : Descrição da situação do emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 80
+
+-----------------------
+Campo: TEL
+-----------------------
+   Descrição : Telefone
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 15
+   Scale     : 0
+
+-----------------------
+Campo: TEL_RESP
+-----------------------
+   Descrição : Telefone do responsável
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 15
+   Scale     : 0
+
+-----------------------
+Campo: TP_ENDER
+-----------------------
+   Descrição : Tipo de endereço
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 30
+
+-----------------------
+Campo: TP_MERC
+-----------------------
+   Descrição : Tipo de mercado
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: TP_RESP
+-----------------------
+   Descrição : Tipo de responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: UF
+-----------------------
+   Descrição : Unidade da Federação
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 2
+
+-----------------------
+Campo: UF_RESP
+-----------------------
+   Descrição : Unidade da Federação do responsável
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 2
+
