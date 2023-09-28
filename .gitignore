@@ -24,4 +24,5 @@
 
 *.zip
 /downloaded_files/**/*.csv
+/downloaded_files/**/*.txt
 /processed_files/**/*.csv
